@@ -1,0 +1,100 @@
+.music-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px 0px 30px 40px;
+}
+
+.avatar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.top-track-section{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 24px 20px;
+}
+.top-track-tit2{
+    padding-left: 30px;
+}
+.songs-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.songs-card1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: aqua;
+    padding: 10px;
+}
+.song-image{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: aqua;
+}
+.songs-desc{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.inside-card{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.songs-card1:hover{
+    background-color: rgb(38,32,23);
+    color: rgb(255, 255, 255);
+}
+
+.active-song-main{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(20, 148, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.active-song-card{
+    height:600px;
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: azure;
+    flex-direction: column;
+}
+
+.active-card1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.active-image{
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+}
